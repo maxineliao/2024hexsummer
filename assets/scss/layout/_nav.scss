@@ -1,0 +1,18 @@
+.nav {
+	background-color: $black;
+	.list{
+		justify-content: space-between;
+		align-items: center;
+		a {
+			display: block;
+			text-decoration: none;
+			color: $white;
+			padding-top: 40px;
+            padding-bottom: 40px;
+			max-width: 306px;
+			&:hover {
+				color: $primary;
+			}
+		}
+	}
+}
